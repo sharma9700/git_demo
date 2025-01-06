@@ -31,5 +31,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/sharma9700/git_demo.git /// "origin" is the name of the remote repository
 git push -u origin main
+
+
+git merge
 				
 
