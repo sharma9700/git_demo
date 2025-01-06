@@ -33,8 +33,10 @@ git remote add origin https://github.com/sharma9700/git_demo.git /// "origin" is
 git push -u origin main
 
 
-git merge
+git merge new-fetaure
 
 git checkout -b new-feature
+
+
 				
 
