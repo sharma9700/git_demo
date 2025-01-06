@@ -1,0 +1,35 @@
+git commands for demo
+
+
+install git and github cli
+git 
+https://git-scm.com/downloads/win
+github-cli
+https://cli.github.com/
+
+step1.
+create a directory 
+mkdir git_demo
+cd git_demo
+
+using cli
+in working directory
+gh auth login
+
+gh repo create <repo name>   # for conformation check using GUI console.
+
+configure user credentials
+git config --global user.email "vemusaisharma@gmail.com"
+git config --global user.name "vemu sharma"
+
+
+git commands
+echo "# git_demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sharma9700/git_demo.git /// "origin" is the name of the remote repository
+git push -u origin main
+				
+
